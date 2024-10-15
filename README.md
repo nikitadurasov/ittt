@@ -6,10 +6,10 @@
 
 **Idempotent Test-Time Training ($IT^3$) approach:** During training (left), the model $f_{\theta}$ is trained to predict the label $\mathbf{y}$ with or without $\mathbf{y}$ given to it as input. At test time (right), when given a corrupted input, the model is sequentially applied. It then briefly trains with the objective of making $f_{\theta}(\mathbf{x},\cdot)$ to be idempotent using only the current test input.
 
-[![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2403.16732-blue?logo=arxiv&color=red)](https://arxiv.org/abs/2403.16732)
+[![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2410.04201-blue?logo=arxiv&color=red)](https://arxiv.org/abs/2410.04201)
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&color=blue)](https://www.python.org/downloads/release/python-31014/)
 [![Pytorch](https://img.shields.io/badge/Pytorch-2.2.1-blue?logo=pytorch&color=blue)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/cvlab-epfl/iter_unc/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/nikitadurasov/ittt/blob/main/LICENSE)
 
 ### [Project Page](https://www.norange.io/projects/ittt/) | [arXiv Paper](https://arxiv.org/abs/2410.04201)
 
@@ -23,7 +23,13 @@ This paper introduces *Idempotent Test-Time Training* ($IT^3$), a novel approach
 
 ## Experiments
 
-Coming soon...
+### MNIST Classification
+
+We train the networks on the MNIST training set and evaluate both the vanilla model and our Idempotent Test-Time Training (IT$^3$) approach on the test set with added Gaussian noise. As expected, the vanilla model shows a significant drop in performance compared to its results on the clean test data. In contrast, our IT$^3$ approach demonstrates better results with smaller accuracy degradation, showcasing its effectiveness in handling noisy inputs.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikitadurasov/ittt/blob/main/exps/notebooks/mnist_ittt.ipynb)
+
+More coming soon...
 
 ## Citation
 
