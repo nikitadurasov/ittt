@@ -27,13 +27,13 @@ This paper introduces *Idempotent Test-Time Training* (IT³), a novel approach t
 
 We train the networks on the MNIST training set and evaluate both the vanilla model and our Idempotent Test-Time Training (IT$^3$) approach on the test set with added Gaussian noise. As expected, the vanilla model shows a significant drop in performance compared to its results on the clean test data. In contrast, our IT$^3$ approach demonstrates better results with smaller accuracy degradation, showcasing its effectiveness in handling noisy inputs.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikitadurasov/ittt/blob/main/exps/notebooks/mnist_ittt.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikitadurasov/ittt/blob/main/exps/mnist/mnist_ittt.ipynb)
 
 ### CIFAR Classification
 
 We train the networks on the CIFAR training set and evaluate both the vanilla model and our Idempotent Test-Time Training (IT$^3$) approach on a Gaussian-noised test set, similar to our experiments with MNIST. As expected, the vanilla model experiences a substantial drop in performance compared to its results on the clean test data. In contrast, our IT$^3$ approach achieves better results with less accuracy degradation, highlighting its effectiveness in handling noisy inputs.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikitadurasov/ittt/blob/main/exps/notebooks/cifar_ittt.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikitadurasov/ittt/blob/main/exps/cifar/cifar_ittt.ipynb)
 
 More coming soon...
 
