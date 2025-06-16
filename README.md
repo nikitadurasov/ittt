@@ -4,8 +4,19 @@
   <img src="./src/method.jpg" alt="Project or Page Cover" width="90%" style="border-radius: 50px;"/>
 </p>
 
-
 **Idempotent Test-Time Training (IT³) approach:** During training (left), the model $f_{\theta}$ is trained to predict the label $\mathbf{y}$ with or without $\mathbf{y}$ given to it as input. At test time (right), when given a corrupted input, the model is sequentially applied. It then briefly trains with the objective of making $f_{\theta}(\mathbf{x},\cdot)$ to be idempotent using only the current test input.
+
+
+## Explainer Video
+
+[![Watch the video](https://img.youtube.com/vi/eKGKpN8fFRM/maxresdefault.jpg)](https://youtu.be/eKGKpN8fFRM)
+
+### [Watch this video on YouTube](https://youtu.be/eKGKpN8fFRM)
+
+
+
+
+
 
 [![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2410.04201-blue?logo=arxiv&color=red)](https://arxiv.org/abs/2410.04201)
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&color=blue)](https://www.python.org/downloads/release/python-31014/)
