@@ -72,10 +72,11 @@ If you find this code useful, please consider citing our paper:
 > Durasov, Nikita, et al. "IT³: Idempotent Test-Time Training." ICML 2025.
 
 ```bibtex
-@article{durasov2024ittt,
-    title = {IT $\^{} 3$: Idempotent Test-Time Training},
-    author = {Durasov, Nikita and Shocher, Assaf and Oner, Doruk and Chechik, Gal and Efros, Alexei A and Fua, Pascal},
-    booktitle = {Forty-second International Conference on Machine Learning},
-    year = {2025}
+@article{durasov2025it,
+  title={{IT}\${\textasciicircum}3\$: Idempotent Test-Time Training},
+  author={Nikita Durasov and Assaf Shocher and Doruk Oner and Gal Chechik and Alexei A Efros and Pascal Fua}, 
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  url={https://openreview.net/forum?id=MHiTGWDbIb}
 }
 ``` 
